@@ -1,0 +1,117 @@
+
+body {
+	background-color: rgb(253, 253, 253);
+    color: #575F7D;
+    font-family: 'Yrsa', serif;
+    font-size: 17px
+    font-weight: lighter;
+}
+
+h1, h2, h3{
+	font-family: 'Hind Vadodara', sans-serif;
+	 font-variant: small-caps;
+}
+h1 {color: #B21F66
+    font-size: 32px;
+    font-weight: 900;
+  }
+h2 {
+	color: #6A8CAF;
+	font-size: 24px
+	font-weight: lighter;
+	font-weight: 500
+}
+a {
+	text-decoration: none;
+	color: #C9485B;
+	font-weight: 600;
+	font-size: 16px;
+}
+a: hover {
+	color: black;
+}
+    font-weight: 100 letter-spacing: 10px;
+    font-weight: inherit;
+    
+    text-transform: capitalize;
+	
+}   
+
+/* Custom design with class */
+
+
+}
+.container {
+	background: ivory;
+	width:700px;
+	padding:50px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+
+}
+
+.card-white {
+	background: ivory;
+	padding:50px;
+	margin: 10px auto;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+
+}
+.img-circle{
+	border-radius: 50%;
+
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230)
+
+}
+
+.list-inline i:hover {
+	color: rgb(255, 204, 204);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+
+
+}
+
+.btn-blue {
+ background-color: rgb(158, 220, 252);
+ color: white;
+ padding:10px 15px;
+ border-radius: 4px;
+
+}
+
+.btn-blue:hover {
+	background-color: rgb(255, 204, 204);
+	color: white;
+}
+
+@media (max-width: 760px){
+ .container{
+  	width: 600px;
+ }
+}
+
+@media (max-width: 500px) {
+	.container {
+	  width: 400px;
+	}
+}
